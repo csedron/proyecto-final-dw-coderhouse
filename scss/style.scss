@@ -1,0 +1,120 @@
+/*VARIABLES*/
+@import "color";
+@mixin imagenesSlide ($imagen) {
+    background-image: $imagen;
+    background-size: cover;
+    background-position: center center;
+}
+$imagen-fondo: url(../img/fondo.jpg);
+$fuenteParrafo: 1rem;
+$fuente: 'Chivo', sans-serif;
+body {
+    background-image: $imagen-fondo;
+    background-size: cover;
+}
+/*MENU NAVEGACION*/
+.navbar {
+    background-image: $gradiente;
+    font-family: 'Chivo', sans-serif;
+    font-size: $fuenteParrafo * 2;
+    border-radius: 1rem;
+}
+/*SLIDE*/
+.carousel-item {
+    height: 300px;
+}
+@media (min-width: 992px) {
+    .carousel-item {
+        height: 70vh !important;
+    }
+}
+.slide1 {
+    @include imagenesSlide(url(../img/slide1.jpg));
+}
+.slide2 {
+    @include imagenesSlide(url(../img/slide2.jpg));
+}
+.slide3 {
+    @include imagenesSlide(url(../img/slide3.jpg));
+}
+/*CONTENIDO PRINCIPAL*/
+@media (max-width: 575px) {
+    .fotoInicio {
+        height: 250px;
+        width: 100%;
+    }
+}
+@media (min-width: 576px) {
+    .fotoInicio {
+        height: 350px;
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .fotoInicio {
+        height: 450px;
+        width: 100%;
+    }
+}
+/* 2 cuadros de texto pagina Inicio*/
+.card-body {
+    font-family: 'Chivo', sans-serif;
+    font-size: $fuenteParrafo * 1.6;
+    text-align: justify;
+    border: $bordeCuadro;
+}
+/*PAGINA PRECIOS*/
+.fondoPrecios {
+    background-image: url(../img/fondoprecios.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.main__article__table {
+    color: $colorTexto;
+    font-size: $fuenteParrafo * 1.6;
+}
+.main__article__div__card-body {
+    color: $colorTexto;
+}
+/*PAGINA TIPS*/
+.main__div__div__div_card {
+    color: $colorTexto;
+    border: $bordeCuadro;
+}
+/*PAGINA CONTACTO*/
+.fondoContacto {
+    background-image: url(../img/fondocontacto.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.contacto__main {
+    .contacto__main__h1 {
+    font-family: 'Chivo', sans-serif;
+    font-size: $fuenteParrafo*3;
+    }
+    .contacto__main__form {
+        .form-group {
+        font-family: 'Chivo', sans-serif;
+        font-size: $fuenteParrafo;
+        }
+        input {
+            font-family: 'Chivo', sans-serif;
+            font-size: $fuenteParrafo;
+            color: $colorTexto;  
+        }
+        textarea {
+            color: $colorTexto !important;
+        }
+        select {
+            color: $colorTexto;
+        }
+    }
+}
+/*FOOTER*/
+footer {
+    background-image: $gradiente;
+    font-family: 'Chivo', sans-serif;
+    font-size: $fuenteParrafo;
+    color: white;
+    border-radius: 1rem;
+}

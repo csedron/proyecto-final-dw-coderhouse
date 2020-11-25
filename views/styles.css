@@ -1,0 +1,108 @@
+/*VARIABLES*/
+body {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover; }
+
+/*MENU NAVEGACION*/
+.navbar {
+  background-image: linear-gradient(to bottom, #890620, #C884A6);
+  font-family: 'Chivo', sans-serif;
+  font-size: 2rem;
+  border-radius: 1rem; }
+
+/*SLIDE*/
+.carousel-item {
+  height: 300px; }
+
+@media (min-width: 992px) {
+  .carousel-item {
+    height: 70vh !important; } }
+
+.slide1 {
+  background-image: url(../img/slide1.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+.slide2 {
+  background-image: url(../img/slide2.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+.slide3 {
+  background-image: url(../img/slide3.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+/*CONTENIDO PRINCIPAL*/
+@media (max-width: 575px) {
+  .fotoInicio {
+    height: 250px;
+    width: 100%; } }
+
+@media (min-width: 576px) {
+  .fotoInicio {
+    height: 350px;
+    width: 100%; } }
+
+@media (min-width: 992px) {
+  .fotoInicio {
+    height: 450px;
+    width: 100%; } }
+
+/* 2 cuadros de texto pagina Inicio*/
+.card-body {
+  font-family: 'Chivo', sans-serif;
+  font-size: 1.6rem;
+  text-align: justify;
+  border: 4px #a5c4d4 solid; }
+
+/*PAGINA PRECIOS*/
+.fondoPrecios {
+  background-image: url(../img/fondoprecios.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+.main__article__table {
+  color: #c884a6;
+  font-size: 1.6rem; }
+
+.main__article__div__card-body {
+  color: #c884a6; }
+
+/*PAGINA TIPS*/
+.main__div__div__div_card {
+  color: #c884a6;
+  border: 4px #a5c4d4 solid; }
+
+/*PAGINA CONTACTO*/
+.fondoContacto {
+  background-image: url(../img/fondocontacto.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+.contacto__main .contacto__main__h1 {
+  font-family: 'Chivo', sans-serif;
+  font-size: 3rem; }
+
+.contacto__main .contacto__main__form .form-group {
+  font-family: 'Chivo', sans-serif;
+  font-size: 1rem; }
+
+.contacto__main .contacto__main__form input {
+  font-family: 'Chivo', sans-serif;
+  font-size: 1rem;
+  color: #c884a6; }
+
+.contacto__main .contacto__main__form textarea {
+  color: #c884a6 !important; }
+
+.contacto__main .contacto__main__form select {
+  color: #c884a6; }
+
+/*FOOTER*/
+footer {
+  background-image: linear-gradient(to bottom, #890620, #C884A6);
+  font-family: 'Chivo', sans-serif;
+  font-size: 1rem;
+  color: white;
+  border-radius: 1rem; }

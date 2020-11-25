@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Claudio Sedron">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <ul class="headerList">
+            <li>
+                <img class="logoMundo" src="../img/mundo.svg">
+            </li>            
+            <li>
+                    <a title="Facebook CS Servicios" href="https://www.facebook.com" ><img src="../img/facebook.svg"></a>
+            </li>
+            <li>
+                <a title="Twitter CS Servicios" href="https://www.twitter.com"><img src="../img/twitter.svg"></a>
+            </li>
+            <li>
+                <a title="Instagram CS Servicios" href="https://www.instagram.com"><img src="../img/instagram.svg"></a>
+            </li>
+            <li>
+                <a title="Whatsapp CS Servicios" href="https://api.whatsapp.com/"><img src="../img/whatsapp.svg"></a>
+            </li>
+        </ul>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="servicios.html">Servicios</a>
+            </li>
+            <li>
+                <a href="precios.html">Precios</a>
+            </li>
+            <li>
+                <a href="tips.html">Tips</li></a>
+            <li>
+                <a href="remoto.html">Soporte remoto</a>
+            </li>
+            <li>
+                <a href="contacto.html">Contacto</a> 
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <form action="" class="formulario">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <label for="">Nombre</label>
+                <input type="text" name="Nombre" placeholder="Tu nombre" required id="">
+                <label for="">Telefono</label>
+                <input type="number" name="Telefono" placeholder="11 - 1111111"  required id="">
+                <!--desplegable estado civil-->
+                <label for="">Estado Civil</label>
+                <select name="Estado civil" id="">
+                    <option value="soltero">Soltero/a</option>
+                    <option value="casado">Casado/a</option>
+                </select>
+                <label for="">Apellido</label>
+                <input type="text" name="Apellido" placeholder="Tu apellido" required id="">
+                <label for="">Email</label>
+                <input type="email" name="Email" placeholder="Tu correo" required id="">
+                <!--casilla de chequeo-->
+                <label for="">Deseas suscribirte?</label>
+                    <span>
+                        <input class="checkbox" type="checkbox">
+                    </span>
+                
+                <!--Area de comentario-->
+                <textarea placeholder="Dejanos tu mensaje" name="" id="" cols="130" rows="10"></textarea>
+            </fieldset>
+                <!--Botones-->
+                <input class="submit" type="submit">
+                <input class="reset" type="reset">
+        </form>
+    </section>
+    <footer class="pieParrafo">
+        <ul class="listaPie">
+            <li>
+                <a href="https://www.google.com/maps/place/San+Mart%C3%ADn+100,+U9000+Comodoro+Rivadavia,+Chubut/@-45.8611878,-67.477356,17z/data=!3m1!4b1!4m5!3m4!1s0xbde4544fc7bd17b9:0xfc7ef12d59a57d9f!8m2!3d-45.8611878!4d-67.4751673"><img src="../img/finderlocation.svg" alt=""></a>
+                <p>San Martin 100</p>
+                <p>Comodoro Rivadavia</p>
+            </li>
+            <li>
+                <img src="../img/reloj.svg" alt="">
+                <p>Lunes a Sabados</p>
+                <p>09:00 a 21:00</p>
+            </li>
+            <li>
+                <a href="contacto.html"><img src="../img/mail.svg" alt=""></a>
+                <p>Contactenos</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
