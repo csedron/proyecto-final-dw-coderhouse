@@ -1,0 +1,36 @@
+/*VARIABLES*/
+@import "color";
+@import "fonts";
+$imagen-fondo: url(../img/fondo.jpg);
+
+body {
+    background-image: $imagen-fondo;
+    background-size: cover;
+}
+/*MENU NAVEGACION*/
+.navbar {
+    background-image: $gradiente;
+    font-family: $font-type;
+    font-size: $font-size * 2;
+    border-radius: 1rem;
+}
+
+/*PAGINA TIPS*/
+.tarjetas__contenido {
+    color: $colorTexto;
+    border: $bordeCuadro;
+    font-family: $font-type;
+}
+.tarjetas__contenido:hover {
+    background-color: $colorv;
+    color: white;
+}
+
+/*FOOTER*/
+footer {
+    background-image: $gradiente;
+    font-family: $font-type;
+    font-size: $font-size;
+    color: white;
+    border-radius: 1rem;
+}

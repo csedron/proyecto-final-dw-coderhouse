@@ -1,3 +1,4 @@
+/*VARIABLES*/
 @import "color";
 @import "fonts";
 body {
@@ -11,25 +12,36 @@ body {
     font-size: $font-size*2;
     border-radius: 1rem; }
 
-/*CONTENIDO PAGINA*/
-    .frase {
-        .frase__title {
-            font-family: $font-type;
-            font-size: $font-size*3;
-            text-align: center;
+/*PAGINA CONTACTO*/
+.fondoContacto {
+    background-image: url(../img/fondocontacto.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.formulario {
+    .formulario__titulo {
+    font-family: $font-type;
+    font-size: $font-size*3;
+    }
+    .formulario__cuerpo {
+        .form-group {
+        font-family: $font-type;
+        font-size: $font-size;
         }
-        .frase__text {
+        input {
             font-family: $font-type;
             font-size: $font-size;
-            text-align: justify;
+            color: $colorTexto;  
         }
-        .frase__button {
-            background-color: $colorv;
-            color: black;
-            
+        textarea {
+            color: $colorTexto !important;
+        }
+        select {
+            color: $colorTexto;
         }
     }
-    
+}
+
 /*FOOTER*/
 footer {
     background-image: linear-gradient(to bottom, #890620, #C884A6);

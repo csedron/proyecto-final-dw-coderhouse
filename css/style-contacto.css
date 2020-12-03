@@ -1,3 +1,4 @@
+/*VARIABLES*/
 body {
   background-image: url(../img/fondocontacto.jpg);
   background-size: cover;
@@ -11,20 +12,31 @@ body {
   border-radius: 1rem;
 }
 
-/*CONTENIDO PAGINA*/
-.frase .frase__title {
+/*PAGINA CONTACTO*/
+.fondoContacto {
+  background-image: url(../img/fondocontacto.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.formulario .formulario__titulo {
   font-family: "Chivo", sans-serif;
   font-size: 3rem;
-  text-align: center;
 }
-.frase .frase__text {
+.formulario .formulario__cuerpo .form-group {
   font-family: "Chivo", sans-serif;
   font-size: 1rem;
-  text-align: justify;
 }
-.frase .frase__button {
-  background-color: #a5c4d4;
-  color: black;
+.formulario .formulario__cuerpo input {
+  font-family: "Chivo", sans-serif;
+  font-size: 1rem;
+  color: #c884a6;
+}
+.formulario .formulario__cuerpo textarea {
+  color: #c884a6 !important;
+}
+.formulario .formulario__cuerpo select {
+  color: #c884a6;
 }
 
 /*FOOTER*/

@@ -1,3 +1,4 @@
+/*VARIABLES*/
 @import "color";
 @import "fonts";
 body {
@@ -50,25 +51,15 @@ body {
     }
 }
 
-.tarjetas :hover {
+.tarjetas:hover {
     background-color: $colorv;
     color: white;
-}
-
-/*PAGINA SOPORTE REMOTO*/
-.frase {
-    .frase__button {
-        background-color: $colorv;
-        color: black;
-        
-    }
-    
 }
 
 /*FOOTER*/
 footer {
     background-image: linear-gradient(to bottom, #890620, #C884A6);
-    font-family: 'Chivo', sans-serif;
-    font-size: 1rem;
+    font-family: $font-type;
+    font-size: $font-size;
     color: white;
     border-radius: 1rem; }

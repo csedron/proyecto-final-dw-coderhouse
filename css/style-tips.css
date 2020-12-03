@@ -1,5 +1,6 @@
+/*VARIABLES*/
 body {
-  background-image: url(../img/fondocontacto.jpg);
+  background-image: url(../img/fondo.jpg);
   background-size: cover;
 }
 
@@ -11,20 +12,16 @@ body {
   border-radius: 1rem;
 }
 
-/*CONTENIDO PAGINA*/
-.frase .frase__title {
+/*PAGINA TIPS*/
+.tarjetas__contenido {
+  color: #c884a6;
+  border: 4px #a5c4d4 solid;
   font-family: "Chivo", sans-serif;
-  font-size: 3rem;
-  text-align: center;
 }
-.frase .frase__text {
-  font-family: "Chivo", sans-serif;
-  font-size: 1rem;
-  text-align: justify;
-}
-.frase .frase__button {
+
+.tarjetas__contenido:hover {
   background-color: #a5c4d4;
-  color: black;
+  color: white;
 }
 
 /*FOOTER*/

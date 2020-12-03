@@ -1,0 +1,76 @@
+/*VARIABLES*/
+@import "color";
+@import "fonts";
+@mixin imagenesSlide ($imagen) {
+    background-image: $imagen;
+    background-size: cover;
+    background-position: center center;
+}
+$imagen-fondo: url(../img/fondo.jpg);
+$font-size: 1rem;
+$fuente: 'Chivo', sans-serif;
+body {
+    background-image: $imagen-fondo;
+    background-size: cover;
+}
+/*MENU NAVEGACION*/
+.navbar {
+    background-image: $gradiente;
+    font-family: $font-type;
+    font-size: $font-size * 2;
+    border-radius: 1rem;
+}
+/*SLIDE*/
+.carousel-item {
+    height: 300px;
+}
+@media (min-width: 992px) {
+    .carousel-item {
+        height: 70vh !important;
+    }
+}
+.slide1 {
+    @include imagenesSlide(url(../img/slide1.jpg));
+}
+.slide2 {
+    @include imagenesSlide(url(../img/slide2.jpg));
+}
+.slide3 {
+    @include imagenesSlide(url(../img/slide3.png));
+}
+/*CONTENIDO PRINCIPAL*/
+@media (max-width: 575px) {
+    .fotoInicio {
+        height: 250px;
+        width: 100%;
+    }
+}
+@media (min-width: 576px) {
+    .fotoInicio {
+        height: 350px;
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .fotoInicio {
+        height: 450px;
+        width: 100%;
+    }
+}
+/* 2 cuadros de texto pagina Inicio*/
+.card-body {
+    font-family: $font-type;
+    font-size: $font-size;
+    text-align: justify;
+    border: $bordeCuadro;
+}
+
+
+/*FOOTER*/
+footer {
+    background-image: $gradiente;
+    font-family: $font-type;
+    font-size: $font-size;
+    color: white;
+    border-radius: 1rem;
+}
