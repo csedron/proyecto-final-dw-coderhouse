@@ -19,12 +19,22 @@
     color: $colorTexto;
     font-size: $font-size * 1.6;
 }
-.cotenido__cuerpoTarjetas {
+.card {
     color: $colorTexto;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    .card-text{
+        text-align: justify;
+    }
+    
 }
 .cotenido__cuerpoTarjetas:hover {
     background-color: $colorv;
     color: white;
+}
+.contenido__img{
+    width: 15rem;    
 }
 
 /*CODIGO PARA CAMBIAR COMPORTAMIENTO DE TABLA EN MOVILES

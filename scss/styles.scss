@@ -6,7 +6,7 @@
     background-size: cover;
     background-position: center center;
 }
-$imagen-fondo: url(../img/fondo.jpg);
+$imagen-fondo: url(../img/fondo.png);
 $font-size: 1rem;
 $fuente: 'Chivo', sans-serif;
 body {
@@ -58,13 +58,30 @@ body {
     }
 }
 /* 2 cuadros de texto pagina Inicio*/
-.card-body {
+.tarjetas__cuerpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: $font-type;
     font-size: $font-size;
     text-align: justify;
     border: $bordeCuadro;
+
+    .tarjetas__img {
+        width: 5rem;
+    }
+    .tarjetas__title {
+        padding-top: 1rem;
+    }
+}
+.tarjetas__cuerpo:hover {
+    background-color: $colorv;
+    color: white;
 }
 
+section {
+    padding-bottom: 5rem;
+}
 
 /*FOOTER*/
 footer {

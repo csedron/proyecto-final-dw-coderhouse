@@ -19,7 +19,7 @@ body {
 }
 .frase .frase__text {
   font-family: "Chivo", sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   text-align: justify;
 }
 .frase .frase__button {

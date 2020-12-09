@@ -19,13 +19,23 @@
   font-size: 1.6rem;
 }
 
-.cotenido__cuerpoTarjetas {
+.card {
   color: #c884a6;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+}
+.card .card-text {
+  text-align: justify;
 }
 
 .cotenido__cuerpoTarjetas:hover {
   background-color: #a5c4d4;
   color: white;
+}
+
+.contenido__img {
+  width: 15rem;
 }
 
 /*CODIGO PARA CAMBIAR COMPORTAMIENTO DE TABLA EN MOVILES

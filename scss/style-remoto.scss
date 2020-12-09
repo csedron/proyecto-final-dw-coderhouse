@@ -20,7 +20,7 @@ body {
         }
         .frase__text {
             font-family: $font-type;
-            font-size: $font-size;
+            font-size: $font-size * 1.25;
             text-align: justify;
         }
         .frase__button {
