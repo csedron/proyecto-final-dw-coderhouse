@@ -29,8 +29,8 @@
   text-align: justify;
 }
 
-.cotenido__cuerpoTarjetas:hover {
-  background-color: #a5c4d4;
+.card:hover {
+  background-color: #a5c4d4 !important;
   color: white;
 }
 

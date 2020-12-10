@@ -29,8 +29,8 @@
     }
     
 }
-.cotenido__cuerpoTarjetas:hover {
-    background-color: $colorv;
+.card:hover {
+    background-color: $colorv !important;
     color: white;
 }
 .contenido__img{
